@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/stylesheetReviews.css">
+		<script src="js/comment.js"></script>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<title>Reviews</title>
+	</head>
+	<body>
+		<div class="header"> 
+		<a href="index.html"><img src="img/swhotels.png" alt="SWHotles"></a>
+		</div>
+			<div class="menu"> <!--This is the navigation bar that is placed at the top of the website--> 
+				<div class="nav"><a href="index.html">Home</a></div>
+				<div class="nav"><a href="facilites.html">Facilites</a></div>
+				<div class="nav"><a href="local-attractions.html">Local Attractions</a></div>
+				<div class="nav"><a href="events.html">Events</a></div>
+				<div class="nav"><a href="rooms.html">Rooms</a></div>
+				<div class="nav"><a href="reviews.html">Reviews</a></div>
+				<div class="nav"><a href="contact.html">Contact</a></div>
+			</div>
+
+		<div class="content" >
+		<div id="dtext">
+  <h4>Your comment</h4>
+	<!--This code is for the from boxs for users to input comments and there name-->
+	<input id="namebox" type="text" maxlength="32" size="20" placeholder="Name" />
+	<br>
+	<textarea id="txt1" class="textbox" rows="6" placeholder="Your comment"></textarea>
+		</div>
+	<!--this code is for the submit and clar comment button, which then posts onto the reviews page--> 
+	<button class="navbutton" onClick="clearComment()">Clear Comment</button> 
+	<button class="navbutton" onClick="saveComment()">Save Comment </button>
+		
+		<h4>Comments</h4>
+		<div id="cmtlist"></div>
+
+		</div>
+	
+
+
+	
+		<footer class="footer"> 
+		<p>SW Hotels</p> 
+		</footer> 
+		
+	</body>
+</html>

@@ -1,0 +1,200 @@
+/* start of the styling sheet for pages Home, facilities, local attractions, events and rooms
+**/
+
+html  {
+	background-color: beige;
+	}
+
+.header {
+	
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	vertical-align: middle;
+	position: relative;
+	text-align: center;
+	border-radius: 10px;
+	margin-right: 40px;
+	
+	}
+.menu { 
+	width: 1225px;
+	height: 50px;
+	background-color: white;
+	bottom: 20px;
+	margin-top: 5px;
+	margin-bottom:5px;
+	margin: auto;
+	
+	
+	}
+.nav  {
+	width: 171px;
+	height: 50px;
+	display: inline-block;
+	background-color: white; 
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	position:relative;
+	
+	
+}
+
+
+.nav:hover a {
+	color:white;
+}
+
+
+.nav:hover {
+	transition-property: background;
+	background-color: grey;
+	transition-duration: 2s;
+	
+	}
+
+.navone:hover {
+	transition-property: background;
+	background-color: white; 
+	transition-duration: 2s;
+}
+
+	
+.content {
+	margin: auto;
+	width: 70.5%;
+}
+
+footer.footer {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	border-radius: 10px;
+	position: fixed;
+	bottom: 0;
+}
+
+
+.upperleft {
+	width: 50%;
+	height: 400px;
+	float: left;
+	position: relative;
+	background-color: white;
+	font-family: calibri;
+	text-align: center;
+	
+	} 
+
+img.upperleft  {
+	width: 100%;
+	height:400px;
+	
+}
+	
+.upperright {
+	width: 50%;
+	height: 400px;
+	position: relative;
+	background-color: white;
+	float: right;
+	text-align: center;
+	font-family: calibri;
+	
+}
+
+
+.lowerleft {
+	border: 10px solid navy;
+	width: 48.51%;
+	height: 400px;
+	position: relative;
+	background-color: white;
+	float: left;
+	font-family: calibri;
+	text-align: center;
+	
+}
+
+img.lowerright {
+	width: 100%; 
+	height: 400px;
+	margin: auto;
+}
+.lowerright {
+	width: 50%;
+	height: 400px;
+	float: right;
+	position: relative;
+	background-color: white;
+	font-family: calibri;
+	text-align: center;
+}
+
+a:link { 
+text-decoration: none;
+}
+
+
+/* start of the JS CSS styling 
+**/
+
+*{
+	margin:0px;
+	}
+#slider.lowerright {
+	height:400px;
+	width:100%;
+	margin: 50px auto;
+	position:relative;
+	border-radius:10px;
+	overflow:hidden;
+	}
+#image{
+	height:400px;
+	width:100%;
+	position:relative;
+
+	}
+	
+.left_hold {
+	height: 400px;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.right_hold {
+	height: 400px;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.left {
+	height:50px;
+	width:50px;
+	position:absolute;
+	top:40%;
+	left:20px;
+	opacity:0;
+	transition: all .2s ease-in-out 0s;
+	}
+.right {
+	height:50px;
+	width:50px;
+	position:absolute;
+	top:40%;
+	right:20px;
+	opacity:0;
+	transition: all .5s ease-in-out 0s;
+	}
+.left_hold:hover .left {
+	opacity:0.6;
+	}
+.right_hold:hover .right {
+	opacity:0.6;
+}
+
+
+
